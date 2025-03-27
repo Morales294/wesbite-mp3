@@ -8,13 +8,12 @@ body {
 
 nav ul {
     list-style: none;
-    padding: 0;
+    padding: 20px;
     background: #333;
     overflow: hidden;
     color: white;
     text-align: center;
     margin: 0;
-    padding: 0;
 }
 
 nav ul li {
@@ -39,4 +38,12 @@ footer {
 
 p.b {
     text-align-last: center;
+}
+
+#logo {
+    position: relative;
+    display: block;
+    margin: auto;
+    height: 300px;
+    width: 300px;
 }
