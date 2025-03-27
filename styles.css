@@ -36,3 +36,7 @@ footer {
     color: white;
     padding: 10px;
 }
+
+p.b {
+    text-align-last: center;
+}
