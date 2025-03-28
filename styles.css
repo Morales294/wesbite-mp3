@@ -62,7 +62,7 @@ body {
 
 .banner p {
     font-size: 1.2rem;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
 }
 
 .cta-btn {
@@ -106,8 +106,8 @@ body {
 }
 
 .player-card img {
-    height: 150px;
-    width: 150px;
+    height: 220px;
+    width: 220px;
     border-width: 50%;
 }
 
