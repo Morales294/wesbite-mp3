@@ -3,41 +3,148 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Real Madrid</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Real Madrid CF</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <!-- Header Section with Banner GIF -->
     <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#contact">social</a></li>
-            </ul>
-        </nav>
+        <div class="navbar">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Real_Madrid_CF.svg" alt="Real Madrid Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#history">History</a></li>
+                    <li><a href="#players">Players</a></li>
+                    <li><a href="#ronaldo">Cristiano Ronaldo</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
-    
-    <section id="home">
-        <h1>Welcome to Real madrid</h1>
-        <p>Here you will experience the accoplishments and history about the best club in europe</p>
-    </section>
-    
-    <section id="about">
-        <h2>about</h2>
-        <p class="b">Real Madrid, known as "Los Blancos" (The Whites) due to their all-white uniforms, 
-            is a professional football (soccer) club based in Madrid, Spain, with a rich history and a global fanbase, 
-            considered by many to be one of the greatest teams in the world, holding the world record of 15 champions leauges and winning 5 in a ro.</p>
-    </section>
-    
-    <section id="social">
-        <h2>social</h2>
-        <p>come follow ours socials at @realmadrid</p>
+
+    <!-- Banner GIF -->
+    <section id="home" class="banner">
+        <div class="banner-content">
+            <h1>Real Madrid CF</h1>
+            <p>Welcome to the official fan page of Real Madrid</p>
+            <a href="#players" class="cta-btn">Meet Our Players</a>
+        </div>
     </section>
 
-    <img src="Real_Madrid.png" alt="Real Madrid" width="500" height="333" id="logo">
+    <!-- History Section -->
+    <section id="history" class="section">
+        <div class="section-content">
+            <h2>Club History</h2>
+            <p>Founded in 1902, Real Madrid has grown to become one of the most successful and iconic football clubs in the world.</p>
+            <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/Real_Madrid_Club_F%C3%BAtbol.jpg" alt="Real Madrid Stadium" class="history-image">
+        </div>
+    </section>
+
+    <!-- Current Players Section -->
+    <section id="players" class="section bg-light">
+        <div class="section-content">
+            <h2>Current Players</h2>
+            <div class="player-cards">
+                <div class="player-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/1/1d/Karim_Benzema_2019.jpg" alt="Karim Benzema">
+                    <p>Karim Benzema</p>
+                </div>
+                <div class="player-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d2/Vin%C3%ADcius_Jr._2021.jpg" alt="Vinícius Júnior">
+                    <p>Vinícius Júnior</p>
+                </div>
+                <div class="player-card">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c4/Luka_Modri%C4%87_2021.jpg" alt="Luka Modrić">
+                    <p>Luka Modrić</p>
+                </div>
+            </div>
+        </div>
+    </section>
     
+ <!-- Trophies Section -->
+ <section id="trophies" class="section">
+    <div class="section-content">
+        <h2>Real Madrid Trophies</h2>
+        <p>Real Madrid has won numerous prestigious titles, including a record 14 UEFA Champions League titles.</p>
+        <div class="trophy-list">
+            <div class="trophy">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/ae/UEFA_Champions_League_Trophy.png" alt="Champions League Trophy">
+                <p>14x UEFA Champions League</p>
+            </div>
+            <div class="trophy">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/a/a2/Liga_Spanish_Trophy.png" alt="La Liga Trophy">
+                <p>35x La Liga</p>
+            </div>
+            <div class="trophy">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/Copa_del_Rey_Trophy.png" alt="Copa del Rey Trophy">
+                <p>19x Copa del Rey</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Cristiano Ronaldo Dedication Section -->
+    <section id="ronaldo" class="section">
+        <div class="section-content">
+            <h2>Cristiano Ronaldo - A Legend</h2>
+            <p>Ronaldo's time at Real Madrid was nothing short of legendary. He helped the club win numerous titles, including 4 Champions League titles and 2 La Liga titles.</p>
+            <div class="ronaldo-content">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/Cristiano_Ronaldo_2018.jpg" alt="Cristiano Ronaldo" class="ronaldo-image">
+                <p class="ronaldo-description">
+                    Cristiano Ronaldo is not only one of the greatest footballers to ever play, but his dedication and contributions to Real Madrid are truly unforgettable. His time at the club (2009–2018) included countless goals, accolades, and memories.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="section bg-light">
+        <div class="section-content">
+            <h2>Real Madrid Videos</h2>
+            <div class="video-container">
+                <div class="video-item">
+                    <h3>Real Madrid vs Barcelona - Epic Moments</h3>
+                    <iframe src="https://www.youtube.com/embed/JrTc45c3R60" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div class="video-item">
+                    <h3>Real Madrid 2024/2025 Season Highlights</h3>
+                    <iframe src="https://www.youtube.com/embed/qmiA4FVsSAg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-content">
+            <h2>Contact Us</h2>
+            <p>If you have any inquiries, feel free to reach out to us.</p>
+            <form action="#" method="POST">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+                <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                <button type="submit" class="cta-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
     <footer>
-        <p>&copy; Real Madrid © 2025 All rights reserved</p>
+        <div class="footer-content">
+            <p>&copy; 2025 Real Madrid CF. All Rights Reserved.</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
