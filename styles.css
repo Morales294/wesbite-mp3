@@ -8,7 +8,7 @@
 /* Body */
 body {
     font-family: 'Arial', sans-serif;
-    line-height-: 1.6;
+    line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
 }
@@ -215,4 +215,11 @@ footer {
     .video-item iframe {
         width: 100%;
     }
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: gold;
 }
