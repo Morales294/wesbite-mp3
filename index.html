@@ -12,9 +12,8 @@
     <header>
         <div class="navbar">
             <div class="logo">
-                <img src="Real_Madrid.png" alt="Real Madrid Logo" 
-                class="Real_Madrid.png" id="Real_Madrid.png".
-                <audio id="audio" src="Hala Madrid ... y nada más.mp4" preload="auto"></audio>
+                <a href="https://www.realmadrid.com/en-US">
+                    <img src="Real_Madrid.png" alt="Real Madrid"></a>
 
             </div>
             <nav>
@@ -40,6 +39,31 @@
             <h1>Real Madrid CF</h1>
             <p>Welcome to the official fan page of Real Madrid</p>
             <a href="#players" class="cta-btn">Meet Our Players</a>
+            <audio id="myAudio">
+                <source src="Hala Madrid ... y nada más.mp4" type="audio/ogg">
+                <source src="Hala Madrid ... y nada más.mp4" type="audio/mpeg">
+                Your browser does not support the audio element.
+              </audio>
+              
+             <p></p>
+              
+              <button onclick="playAudio()" type="button">Play Anthem</button>
+              <button onclick="pauseAudio()" type="button">Pause Anthem</button> 
+              
+              <script>
+              var x = document.getElementById("myAudio"); 
+              
+              function playAudio() { 
+                x.play(); 
+              } 
+              
+              function pauseAudio() { 
+                x.pause(); 
+              } 
+              </script>
+              
+              </body>
+              </html>            
         </div>
     </section>
 
